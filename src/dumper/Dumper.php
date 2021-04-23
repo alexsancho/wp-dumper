@@ -17,6 +17,7 @@ class Dumper
     public function dump($value) : void
     {
         $dumper = new HtmlDumper;
+        $dumper->setTheme('dark');
         $dumper->dump((new VarCloner)->cloneVar($value));
     }
 }
