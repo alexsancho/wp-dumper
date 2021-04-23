@@ -1,0 +1,22 @@
+{
+  "name": "kec/wp-dumper",
+  "description": "Laravel DD for Wordpress",
+  "type": "wordpress-plugin",
+  "authors": [
+    {
+      "name": "Alex Sancho",
+      "email": "alex.sancho@kingeclient.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "kec\\dumper\\": "src/dumper"
+    }
+  },
+  "require": {
+    "symfony/var-dumper": "5.2.*"
+  },
+  "require-dev": {
+    "roave/security-advisories": "dev-latest"
+  }
+}
